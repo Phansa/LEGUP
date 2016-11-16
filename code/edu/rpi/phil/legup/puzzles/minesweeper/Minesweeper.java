@@ -11,6 +11,12 @@ import edu.rpi.phil.legup.PuzzleModule;
 import edu.rpi.phil.legup.PuzzleRule;
 import edu.rpi.phil.legup.Selection;
 import edu.rpi.phil.legup.newgui.LEGUP_Gui;
+import edu.rpi.phil.legup.puzzles.lightup.RuleEmptyCorners;
+import edu.rpi.phil.legup.puzzles.lightup.RuleFinishWithBulbs;
+import edu.rpi.phil.legup.puzzles.lightup.RuleFinishWithEmpty;
+import edu.rpi.phil.legup.puzzles.lightup.RuleLightBlueInLight;
+import edu.rpi.phil.legup.puzzles.lightup.RuleMustLight;
+import edu.rpi.phil.legup.puzzles.lightup.RuleWhiteInLight;
 
 public class Minesweeper extends PuzzleModule {
 
@@ -28,8 +34,8 @@ public class Minesweeper extends PuzzleModule {
 
 	@Override
 	public Vector<PuzzleRule> getRules() {
-		// TODO Auto-generated method stub
-		return null;
+		Vector <PuzzleRule>ruleList = new Vector <PuzzleRule>();
+		return ruleList;
 	}
 
 	@Override
