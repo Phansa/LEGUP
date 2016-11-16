@@ -35,6 +35,8 @@ public class Minesweeper extends PuzzleModule {
 	@Override
 	public Vector<PuzzleRule> getRules() {
 		Vector <PuzzleRule>ruleList = new Vector <PuzzleRule>();
+		ruleList.add(new RuleFinishWithBombs());
+		ruleList.add(new RuleFinishWithEmptyMinesweeper());
 		return ruleList;
 	}
 
