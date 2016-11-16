@@ -6,8 +6,7 @@ public class RuleFinishWithEmpty extends PuzzleRule{
 
 	@Override
 	public String getImageName() {
-		// TODO Auto-generated method stub
-		return null;
+		return "images/minesweeper/rules/FinishWithEmpty.png"; 
 	}
 
 }
